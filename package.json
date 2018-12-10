@@ -4,5 +4,9 @@
   "description": "speeds up downloads by requesting files in chunks.",
   "main": "index.js",
   "author": "Rory McLaughlin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "request-promise": "^4.2.2"
+  }
 }
